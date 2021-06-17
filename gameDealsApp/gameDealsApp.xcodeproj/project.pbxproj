@@ -15,6 +15,7 @@
 		9CBA66E5267BCACC006E8670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBA66E3267BCACC006E8670 /* LaunchScreen.storyboard */; };
 		9CBA66F0267BCACD006E8670 /* gameDealsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBA66EF267BCACD006E8670 /* gameDealsAppTests.swift */; };
 		9CBA66FB267BCACD006E8670 /* gameDealsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBA66FA267BCACD006E8670 /* gameDealsAppUITests.swift */; };
+		9CBA6710267BD10C006E8670 /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBA670F267BD10C006E8670 /* Deal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9CBA66F6267BCACD006E8670 /* gameDealsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gameDealsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBA66FA267BCACD006E8670 /* gameDealsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameDealsAppUITests.swift; sourceTree = "<group>"; };
 		9CBA66FC267BCACD006E8670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CBA670F267BD10C006E8670 /* Deal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,12 @@
 		9CBA66D7267BCAC6006E8670 /* gameDealsApp */ = {
 			isa = PBXGroup;
 			children = (
-				9CBA66D8267BCAC6006E8670 /* AppDelegate.swift */,
-				9CBA66DA267BCAC6006E8670 /* SceneDelegate.swift */,
-				9CBA66DC267BCAC6006E8670 /* ViewController.swift */,
+				9CBA6713267BF494006E8670 /* Business */,
+				9CBA670C267BCFC0006E8670 /* Controllers */,
+				9CBA670B267BCFA4006E8670 /* Common */,
+				9CBA670A267BCF75006E8670 /* API */,
+				9CBA6709267BCF47006E8670 /* ViewModels */,
+				9CBA6708267BCC15006E8670 /* Models */,
 				9CBA66DE267BCAC6006E8670 /* Main.storyboard */,
 				9CBA66E1267BCACC006E8670 /* Assets.xcassets */,
 				9CBA66E3267BCACC006E8670 /* LaunchScreen.storyboard */,
@@ -126,6 +131,52 @@
 				9CBA66FC267BCACD006E8670 /* Info.plist */,
 			);
 			path = gameDealsAppUITests;
+			sourceTree = "<group>";
+		};
+		9CBA6708267BCC15006E8670 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9CBA670F267BD10C006E8670 /* Deal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9CBA6709267BCF47006E8670 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9CBA670A267BCF75006E8670 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		9CBA670B267BCFA4006E8670 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9CBA66D8267BCAC6006E8670 /* AppDelegate.swift */,
+				9CBA66DA267BCAC6006E8670 /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9CBA670C267BCFC0006E8670 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9CBA66DC267BCAC6006E8670 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9CBA6713267BF494006E8670 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Business;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CBA66DD267BCAC6006E8670 /* ViewController.swift in Sources */,
+				9CBA6710267BD10C006E8670 /* Deal.swift in Sources */,
 				9CBA66D9267BCAC6006E8670 /* AppDelegate.swift in Sources */,
 				9CBA66DB267BCAC6006E8670 /* SceneDelegate.swift in Sources */,
 			);
