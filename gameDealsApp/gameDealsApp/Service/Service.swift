@@ -10,9 +10,12 @@ import Foundation
 typealias NetworkResponse = (Data?, Error?)
 
 class Service {
-    static func request(url: URL, completion: @escaping(NetworkResponse) -> ()) {
+    static func request(url: URL, httpMethod: String, jsonData: Data, completion: @escaping(NetworkResponse) -> ()) {
         let session = URLSession.shared
-        let request = URLRequest(url: url)
+        var request = URLRequest(url: url)
+        
+        request.httpMethod = httpMethod
+        request.httpBody = jsonData
         
         session.dataTask(with: request) { data, response, error in
             completion((data, error))
