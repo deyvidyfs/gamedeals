@@ -7,38 +7,34 @@
 
 import Foundation
 
-class Deal : Codable{
+class Deal{
     
-    var productId: String
+    var dealSummary: DealSummary
+    var productDetail: ProductDetail?
     
-    private(set) var dealSummary: DealSummary
-    private(set) var productDetail: ProductDetail?
-    
-    init(productId: String, dealSummary: DealSummary, productDetail: ProductDetail?){
-        self.productId = productId
+    init(dealSummary: DealSummary, productDetail: ProductDetail?){
         self.dealSummary = dealSummary
         self.productDetail = productDetail
     }
-    
     
 }
 
 class DealSummary : Codable{
     
+    var productId: String
     var productName: String
     var platform: String
     var coverImageUrl: String
     
     private(set) var priceInfo: PriceInfo
     
-    
-    init(productName: String, platform:String, coverImageUrl: String, priceInfo: PriceInfo){
-        self.productName = productName
-        self.platform = platform
-        self.coverImageUrl = coverImageUrl
-        self.priceInfo = priceInfo
+    enum CodingKeys: String, CodingKey {
+        case productId
+        case productName = "product_title"
+        case platform
+        case coverImageUrl = "gameCoverURL"
+        case priceInfo
     }
-    
     
 }
 
@@ -47,17 +43,26 @@ class PriceInfo : Codable{
     var originalPrice: Double
     var discountPrice: Double
     
-    init(currency: String, originalPrice: Double, discountPrice: Double){
-        self.currency = currency
-        self.originalPrice = originalPrice
-        self.discountPrice = discountPrice
+    enum CodingKeys: String, CodingKey {
+        case currency = "currencyCode"
+        case originalPrice = "orginalMSRP"
+        case discountPrice
     }
+    
 }
 
-class ProductDetail : Codable{
+class ProductDetail: Codable{
     var description: String
+    var type: String
     var publisher: String
-    var mediaUrls : [String]?
+    var storeUrl: String
+    var compatibleConsoles: [String]
+    var relatedMedia: [Media]?
     
-    
+    //TO-DO: Implement Custom Decoder for API
+}
+
+class Media : Codable{
+    var mediaUrl: String
+    var type: String
 }
