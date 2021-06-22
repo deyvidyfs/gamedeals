@@ -24,7 +24,7 @@ class DealBusiness {
             
             let jsonData = try JSONEncoder().encode(DealsSummaryRequestData(platform: platform))
             
-            Service.request(url: URL(string: SUMMARY_REQUEST_URL)!, httpMethod: "GET", jsonData: jsonData) { (data, response) in
+            Service.request(url: URL(string: SUMMARY_REQUEST_URL)!, httpMethod: "POST", jsonData: jsonData) { (data, response) in
                 
                 do {
                     if let data = data {
@@ -53,7 +53,7 @@ class DealBusiness {
             
             let jsonData = try JSONEncoder().encode(ProductDetailRequestData(productId: deal.dealSummary.productId))
             
-            Service.request(url: URL(string: DETAILS_REQUEST_URL)!, httpMethod: "GET", jsonData: jsonData) { (data, response) in
+            Service.request(url: URL(string: DETAILS_REQUEST_URL)!, httpMethod: "POST", jsonData: jsonData) { (data, response) in
                 
                 do {
                     if let data = data {

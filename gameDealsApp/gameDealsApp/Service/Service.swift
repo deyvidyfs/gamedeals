@@ -17,6 +17,7 @@ class Service {
         request.httpMethod = httpMethod
         request.httpBody = jsonData
         
+        print(String(data: jsonData, encoding: .utf8))
         session.dataTask(with: request) { data, response, error in
             completion((data, error))
         }.resume()
