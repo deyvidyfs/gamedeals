@@ -8,6 +8,10 @@
 import UIKit
 
 class DealsListTableViewController: UITableViewController {
+    
+    var placeholderCells: [String] = ["A", "B", "C"]
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +23,18 @@ class DealsListTableViewController: UITableViewController {
         
     }
 
-
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return placeholderCells.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "dealsListCell", for: indexPath)
+        
+        cell.textLabel?.text = "\(placeholderCells[indexPath.row])"
+        
+        return cell
+    }
 }
 
 
+ 
