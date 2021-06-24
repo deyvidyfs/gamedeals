@@ -10,4 +10,5 @@ The Backend project of its API Requests can be found [here](https://github.com/j
 
 ## Contributors
 This project is being made in partnership with [@jotape26](https://github.com/jotape26)
+
 This project implements the WelcomeAboard library by [@leandroromn](https://github.com/leandroromn)
