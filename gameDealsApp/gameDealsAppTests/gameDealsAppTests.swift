@@ -31,4 +31,3 @@ class gameDealsAppTests: XCTestCase {
     }
 
 }
-pod 'WelcomeAboard'

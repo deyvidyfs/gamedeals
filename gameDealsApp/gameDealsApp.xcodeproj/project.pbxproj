@@ -19,6 +19,7 @@
 		9CBA6716267BFD1C006E8670 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBA6715267BFD1C006E8670 /* Service.swift */; };
 		9CBA6718267BFF69006E8670 /* DealBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBA6717267BFF69006E8670 /* DealBusiness.swift */; };
 		C7E2A307D6498343BA150097 /* libPods-gameDealsApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFC7CCF96BF987B9F42390B /* libPods-gameDealsApp.a */; };
+		D34A51D82684D78500AE0695 /* WelcomeAboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34A51D72684D78500AE0695 /* WelcomeAboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		9CBA670F267BD10C006E8670 /* Deal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deal.swift; sourceTree = "<group>"; };
 		9CBA6715267BFD1C006E8670 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		9CBA6717267BFF69006E8670 /* DealBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealBusiness.swift; sourceTree = "<group>"; };
+		D34A51D72684D78500AE0695 /* WelcomeAboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeAboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +95,6 @@
 				51BC79902815BD9A231D8D63 /* Pods-gameDealsApp.debug.xcconfig */,
 				87B93AAE2F3628863DD70A15 /* Pods-gameDealsApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -170,6 +171,7 @@
 		9CBA6709267BCF47006E8670 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D34A51D62684D5EE00AE0695 /* WelcomeAboard */,
 				9CBA66E3267BCACC006E8670 /* LaunchScreen.storyboard */,
 				9CBA66DE267BCAC6006E8670 /* Main.storyboard */,
 				9C55B1CD268164B600F6AAE1 /* Deals List */,
@@ -200,6 +202,14 @@
 				9CBA6715267BFD1C006E8670 /* Service.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		D34A51D62684D5EE00AE0695 /* WelcomeAboard */ = {
+			isa = PBXGroup;
+			children = (
+				D34A51D72684D78500AE0695 /* WelcomeAboardViewController.swift */,
+			);
+			path = WelcomeAboard;
 			sourceTree = "<group>";
 		};
 		F28EE806545699E6475096F8 /* Frameworks */ = {
@@ -372,6 +382,7 @@
 				9CBA66D9267BCAC6006E8670 /* AppDelegate.swift in Sources */,
 				9C55B1CC26815F7300F6AAE1 /* DealsListTableViewController.swift in Sources */,
 				9CBA66DB267BCAC6006E8670 /* SceneDelegate.swift in Sources */,
+				D34A51D82684D78500AE0695 /* WelcomeAboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
