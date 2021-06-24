@@ -18,6 +18,7 @@
 		9CBA6710267BD10C006E8670 /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBA670F267BD10C006E8670 /* Deal.swift */; };
 		9CBA6716267BFD1C006E8670 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBA6715267BFD1C006E8670 /* Service.swift */; };
 		9CBA6718267BFF69006E8670 /* DealBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBA6717267BFF69006E8670 /* DealBusiness.swift */; };
+		C7E2A307D6498343BA150097 /* libPods-gameDealsApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFC7CCF96BF987B9F42390B /* libPods-gameDealsApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51BC79902815BD9A231D8D63 /* Pods-gameDealsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gameDealsApp.debug.xcconfig"; path = "Target Support Files/Pods-gameDealsApp/Pods-gameDealsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5BFC7CCF96BF987B9F42390B /* libPods-gameDealsApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gameDealsApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B93AAE2F3628863DD70A15 /* Pods-gameDealsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gameDealsApp.release.xcconfig"; path = "Target Support Files/Pods-gameDealsApp/Pods-gameDealsApp.release.xcconfig"; sourceTree = "<group>"; };
 		9C55B1CB26815F7300F6AAE1 /* DealsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsListTableViewController.swift; sourceTree = "<group>"; };
 		9CBA66D5267BCAC6006E8670 /* gameDealsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gameDealsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBA66D8267BCAC6006E8670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7E2A307D6498343BA150097 /* libPods-gameDealsApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +87,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		556D27A9C22E205F28CEC45D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51BC79902815BD9A231D8D63 /* Pods-gameDealsApp.debug.xcconfig */,
+				87B93AAE2F3628863DD70A15 /* Pods-gameDealsApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9C55B1CD268164B600F6AAE1 /* Deals List */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +112,8 @@
 				9CBA66EE267BCACD006E8670 /* gameDealsAppTests */,
 				9CBA66F9267BCACD006E8670 /* gameDealsAppUITests */,
 				9CBA66D6267BCAC6006E8670 /* Products */,
+				556D27A9C22E205F28CEC45D /* Pods */,
+				F28EE806545699E6475096F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,6 +202,14 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		F28EE806545699E6475096F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BFC7CCF96BF987B9F42390B /* libPods-gameDealsApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CBA66FF267BCACD006E8670 /* Build configuration list for PBXNativeTarget "gameDealsApp" */;
 			buildPhases = (
+				7516E6F04EBC76B1DFEEF7A9 /* [CP] Check Pods Manifest.lock */,
 				9CBA66D1267BCAC6006E8670 /* Sources */,
 				9CBA66D2267BCAC6006E8670 /* Frameworks */,
 				9CBA66D3267BCAC6006E8670 /* Resources */,
@@ -309,6 +335,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7516E6F04EBC76B1DFEEF7A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gameDealsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9CBA66D1267BCAC6006E8670 /* Sources */ = {
@@ -493,6 +544,7 @@
 		};
 		9CBA6700267BCACD006E8670 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51BC79902815BD9A231D8D63 /* Pods-gameDealsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -511,6 +563,7 @@
 		};
 		9CBA6701267BCACD006E8670 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87B93AAE2F3628863DD70A15 /* Pods-gameDealsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

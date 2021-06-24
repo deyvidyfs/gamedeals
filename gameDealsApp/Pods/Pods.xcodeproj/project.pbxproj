@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CF39DAA1A914D4107169B11D9C7B21A /* Pods-gameDealsApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD91B12A62BE316243A94CA31E2FF22 /* Pods-gameDealsApp-dummy.m */; };
+		26A8803A73FEDDE6084A993423DBCED0 /* WABaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98D6B8DB1DCF2A0B109E29D15597C1B /* WABaseView.swift */; };
+		2DDCA83A7DB5ADC1B82169B41B9E437E /* WAContentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B8EAB2B9FEE92BD18DD2DFD96BF5A /* WAContentButton.swift */; };
+		32268FEA9E21E137B07314492700A55A /* WAContentTitleFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EBDB134174B0F7E551A4055908F8B2 /* WAContentTitleFormat.swift */; };
+		3F0FE027EF3CA20DC9A056758D4648F1 /* WAContentTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2701C34382B1CEAED3E07A00B9734721 /* WAContentTitle.swift */; };
+		4591B37BB803ACD7624D361F96C2208E /* WACardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C88D11CF60DF6DB5EF644AFE55B7FED /* WACardView.swift */; };
+		64AF0E57ACD7ACAC0C22F243C9255410 /* WAContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AB373E39A3D487776B8CD1503207F9 /* WAContent.swift */; };
+		664FCDC80FD82298950CE48BC67C13CB /* WelcomeAboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0339B17D62F49D3B9BD5C71B11FB97B /* WelcomeAboard-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA3549205C38181940DDE7E1F4F4A9D2 /* WAContentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BBE82816B732D9FFE5C35AA6A36F8F /* WAContentCard.swift */; };
+		B481687A34EE898D60D5E80DE3DEC30D /* WAContentBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CA93041A979AF3F5D5674B5158382A /* WAContentBase.swift */; };
+		C662CB15BF16BADE34458041FF636ECE /* Pods-gameDealsApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCD535925584C585658F42965F7983A9 /* Pods-gameDealsApp-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF915C03ED3AC658669F89A1FDF85094 /* WACardsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10337698DAD53DCC9E6CAB2ABF988F7 /* WACardsListView.swift */; };
+		FB08C73921F85E9A68DF3085B72A55E2 /* WelcomeAboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B1C31B01AC76F83D71F00464672CA /* WelcomeAboard-dummy.m */; };
+		FFEABBD0272514A45136BAF71D80F1C3 /* WAPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC69A49259542FD70E84D1328B73F4F1 /* WAPrimaryButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF1EE0F73357C247D44044AEFB5BA820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D1B278C75B970AA6F77F3C45B8CA29D;
+			remoteInfo = WelcomeAboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DA4707F8445A4060249560A3C6481BB /* libWelcomeAboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWelcomeAboard.a; path = libWelcomeAboard.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A58FAE05E73F36D6FC746CE3D8B0B1 /* Pods-gameDealsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gameDealsApp.release.xcconfig"; sourceTree = "<group>"; };
+		234B8EAB2B9FEE92BD18DD2DFD96BF5A /* WAContentButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WAContentButton.swift; path = WelcomeAboard/Classes/Content/WAContentButton.swift; sourceTree = "<group>"; };
+		2701C34382B1CEAED3E07A00B9734721 /* WAContentTitle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WAContentTitle.swift; path = WelcomeAboard/Classes/Content/WAContentTitle.swift; sourceTree = "<group>"; };
+		2BA7E7D61F1D4DEE14E17ED8A6ECAB74 /* Pods-gameDealsApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-gameDealsApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F430D8154030CC4B86D0967F8D9EBF6 /* WelcomeAboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WelcomeAboard.release.xcconfig; sourceTree = "<group>"; };
+		4C88D11CF60DF6DB5EF644AFE55B7FED /* WACardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WACardView.swift; path = WelcomeAboard/Classes/Views/WACardView.swift; sourceTree = "<group>"; };
+		603562BF38AC79C8D9ED23109AF54B89 /* WelcomeAboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WelcomeAboard.debug.xcconfig; sourceTree = "<group>"; };
+		67AB373E39A3D487776B8CD1503207F9 /* WAContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WAContent.swift; path = WelcomeAboard/Classes/Content/WAContent.swift; sourceTree = "<group>"; };
+		6FD91B12A62BE316243A94CA31E2FF22 /* Pods-gameDealsApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-gameDealsApp-dummy.m"; sourceTree = "<group>"; };
+		7C2B1C31B01AC76F83D71F00464672CA /* WelcomeAboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WelcomeAboard-dummy.m"; sourceTree = "<group>"; };
+		81D8137F0BE6946841061E83169C337F /* libPods-gameDealsApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-gameDealsApp.a"; path = "libPods-gameDealsApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D900ED63F761F03549C13356530FD47 /* Pods-gameDealsApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-gameDealsApp.modulemap"; sourceTree = "<group>"; };
+		91BBE82816B732D9FFE5C35AA6A36F8F /* WAContentCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WAContentCard.swift; path = WelcomeAboard/Classes/Content/WAContentCard.swift; sourceTree = "<group>"; };
+		97CA93041A979AF3F5D5674B5158382A /* WAContentBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WAContentBase.swift; path = WelcomeAboard/Classes/Content/WAContentBase.swift; sourceTree = "<group>"; };
+		981F550915B181702A922374B2236F79 /* Pods-gameDealsApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-gameDealsApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0339B17D62F49D3B9BD5C71B11FB97B /* WelcomeAboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WelcomeAboard-umbrella.h"; sourceTree = "<group>"; };
+		A10337698DAD53DCC9E6CAB2ABF988F7 /* WACardsListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WACardsListView.swift; path = WelcomeAboard/Classes/Views/WACardsListView.swift; sourceTree = "<group>"; };
+		A98D6B8DB1DCF2A0B109E29D15597C1B /* WABaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WABaseView.swift; path = WelcomeAboard/Classes/Views/WABaseView.swift; sourceTree = "<group>"; };
+		B3901DA41FC29DF4D3DCA30A312A21CB /* WelcomeAboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WelcomeAboard.modulemap; sourceTree = "<group>"; };
+		BCD535925584C585658F42965F7983A9 /* Pods-gameDealsApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-gameDealsApp-umbrella.h"; sourceTree = "<group>"; };
+		C2EA640A354482492E203BF825911535 /* WelcomeAboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WelcomeAboard-prefix.pch"; sourceTree = "<group>"; };
+		D8571A74F55C101F89238CBB0C249158 /* Pods-gameDealsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gameDealsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DC69A49259542FD70E84D1328B73F4F1 /* WAPrimaryButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WAPrimaryButton.swift; path = WelcomeAboard/Classes/Views/WAPrimaryButton.swift; sourceTree = "<group>"; };
+		E8EBDB134174B0F7E551A4055908F8B2 /* WAContentTitleFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WAContentTitleFormat.swift; path = WelcomeAboard/Classes/Content/WAContentTitleFormat.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3310B7891A017F2261A7002ACEF833A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4440578E90D5D2D275620E1A18610993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65CF9CE5143BC40CFE0F2CF0AE0805F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3901DA41FC29DF4D3DCA30A312A21CB /* WelcomeAboard.modulemap */,
+				7C2B1C31B01AC76F83D71F00464672CA /* WelcomeAboard-dummy.m */,
+				C2EA640A354482492E203BF825911535 /* WelcomeAboard-prefix.pch */,
+				A0339B17D62F49D3B9BD5C71B11FB97B /* WelcomeAboard-umbrella.h */,
+				603562BF38AC79C8D9ED23109AF54B89 /* WelcomeAboard.debug.xcconfig */,
+				2F430D8154030CC4B86D0967F8D9EBF6 /* WelcomeAboard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WelcomeAboard";
+			sourceTree = "<group>";
+		};
+		95CF2330AD264B933BE6E3397DE183A6 /* WelcomeAboard */ = {
+			isa = PBXGroup;
+			children = (
+				A98D6B8DB1DCF2A0B109E29D15597C1B /* WABaseView.swift */,
+				A10337698DAD53DCC9E6CAB2ABF988F7 /* WACardsListView.swift */,
+				4C88D11CF60DF6DB5EF644AFE55B7FED /* WACardView.swift */,
+				67AB373E39A3D487776B8CD1503207F9 /* WAContent.swift */,
+				97CA93041A979AF3F5D5674B5158382A /* WAContentBase.swift */,
+				234B8EAB2B9FEE92BD18DD2DFD96BF5A /* WAContentButton.swift */,
+				91BBE82816B732D9FFE5C35AA6A36F8F /* WAContentCard.swift */,
+				2701C34382B1CEAED3E07A00B9734721 /* WAContentTitle.swift */,
+				E8EBDB134174B0F7E551A4055908F8B2 /* WAContentTitleFormat.swift */,
+				DC69A49259542FD70E84D1328B73F4F1 /* WAPrimaryButton.swift */,
+				65CF9CE5143BC40CFE0F2CF0AE0805F7 /* Support Files */,
+			);
+			name = WelcomeAboard;
+			path = WelcomeAboard;
+			sourceTree = "<group>";
+		};
+		9C5A892959B17FC602DB3A8FEEC73FC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81D8137F0BE6946841061E83169C337F /* libPods-gameDealsApp.a */,
+				0DA4707F8445A4060249560A3C6481BB /* libWelcomeAboard.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3ADC70FF46EB332C9D266323CDD94DC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0D3F216B63E14032624E5867EE6CB71 /* Pods-gameDealsApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				FDEECF394D0A1EF017E5C5539029A6D9 /* Pods */,
+				9C5A892959B17FC602DB3A8FEEC73FC0 /* Products */,
+				B3ADC70FF46EB332C9D266323CDD94DC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0D3F216B63E14032624E5867EE6CB71 /* Pods-gameDealsApp */ = {
+			isa = PBXGroup;
+			children = (
+				8D900ED63F761F03549C13356530FD47 /* Pods-gameDealsApp.modulemap */,
+				981F550915B181702A922374B2236F79 /* Pods-gameDealsApp-acknowledgements.markdown */,
+				2BA7E7D61F1D4DEE14E17ED8A6ECAB74 /* Pods-gameDealsApp-acknowledgements.plist */,
+				6FD91B12A62BE316243A94CA31E2FF22 /* Pods-gameDealsApp-dummy.m */,
+				BCD535925584C585658F42965F7983A9 /* Pods-gameDealsApp-umbrella.h */,
+				D8571A74F55C101F89238CBB0C249158 /* Pods-gameDealsApp.debug.xcconfig */,
+				18A58FAE05E73F36D6FC746CE3D8B0B1 /* Pods-gameDealsApp.release.xcconfig */,
+			);
+			name = "Pods-gameDealsApp";
+			path = "Target Support Files/Pods-gameDealsApp";
+			sourceTree = "<group>";
+		};
+		FDEECF394D0A1EF017E5C5539029A6D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95CF2330AD264B933BE6E3397DE183A6 /* WelcomeAboard */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3EEB5E33C19675FD3FFE2C61FD2E382F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C662CB15BF16BADE34458041FF636ECE /* Pods-gameDealsApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE2728E964B2D5517C4298B4EBEF0A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664FCDC80FD82298950CE48BC67C13CB /* WelcomeAboard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D1B278C75B970AA6F77F3C45B8CA29D /* WelcomeAboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83FAD55E6599F2B4202E6643C1FE80A6 /* Build configuration list for PBXNativeTarget "WelcomeAboard" */;
+			buildPhases = (
+				9AE2728E964B2D5517C4298B4EBEF0A5 /* Headers */,
+				EF0F515BFAC071EDEE082C70C2D14B33 /* Sources */,
+				4440578E90D5D2D275620E1A18610993 /* Frameworks */,
+				A0BD36127BA184D12E3C23115281E408 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WelcomeAboard;
+			productName = WelcomeAboard;
+			productReference = 0DA4707F8445A4060249560A3C6481BB /* libWelcomeAboard.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A9684E3760ECE4FD2699048C1D805B94 /* Pods-gameDealsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25B10FD37CBC7DB037556D70DA7C850 /* Build configuration list for PBXNativeTarget "Pods-gameDealsApp" */;
+			buildPhases = (
+				3EEB5E33C19675FD3FFE2C61FD2E382F /* Headers */,
+				B8067B134E1103E2BA4334DEDA8DB511 /* Sources */,
+				3310B7891A017F2261A7002ACEF833A9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0A4477AF6BCBBE1B75C430D4793045D /* PBXTargetDependency */,
+			);
+			name = "Pods-gameDealsApp";
+			productName = "Pods-gameDealsApp";
+			productReference = 81D8137F0BE6946841061E83169C337F /* libPods-gameDealsApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9C5A892959B17FC602DB3A8FEEC73FC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9684E3760ECE4FD2699048C1D805B94 /* Pods-gameDealsApp */,
+				3D1B278C75B970AA6F77F3C45B8CA29D /* WelcomeAboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0BD36127BA184D12E3C23115281E408 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/WelcomeAboard/WelcomeAboard.modulemap",
+				"${PODS_ROOT}/Headers/Public/WelcomeAboard/WelcomeAboard-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/WelcomeAboard-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/WelcomeAboard/WelcomeAboard.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/WelcomeAboard/WelcomeAboard-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8067B134E1103E2BA4334DEDA8DB511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF39DAA1A914D4107169B11D9C7B21A /* Pods-gameDealsApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0F515BFAC071EDEE082C70C2D14B33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A8803A73FEDDE6084A993423DBCED0 /* WABaseView.swift in Sources */,
+				DF915C03ED3AC658669F89A1FDF85094 /* WACardsListView.swift in Sources */,
+				4591B37BB803ACD7624D361F96C2208E /* WACardView.swift in Sources */,
+				64AF0E57ACD7ACAC0C22F243C9255410 /* WAContent.swift in Sources */,
+				B481687A34EE898D60D5E80DE3DEC30D /* WAContentBase.swift in Sources */,
+				2DDCA83A7DB5ADC1B82169B41B9E437E /* WAContentButton.swift in Sources */,
+				AA3549205C38181940DDE7E1F4F4A9D2 /* WAContentCard.swift in Sources */,
+				3F0FE027EF3CA20DC9A056758D4648F1 /* WAContentTitle.swift in Sources */,
+				32268FEA9E21E137B07314492700A55A /* WAContentTitleFormat.swift in Sources */,
+				FFEABBD0272514A45136BAF71D80F1C3 /* WAPrimaryButton.swift in Sources */,
+				FB08C73921F85E9A68DF3085B72A55E2 /* WelcomeAboard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0A4477AF6BCBBE1B75C430D4793045D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WelcomeAboard;
+			target = 3D1B278C75B970AA6F77F3C45B8CA29D /* WelcomeAboard */;
+			targetProxy = BF1EE0F73357C247D44044AEFB5BA820 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4604B204F92B101853D67D14D14D9072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F430D8154030CC4B86D0967F8D9EBF6 /* WelcomeAboard.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WelcomeAboard/WelcomeAboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = Headers/Public/WelcomeAboard/WelcomeAboard.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WelcomeAboard;
+				PRODUCT_NAME = WelcomeAboard;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F94A28B474FCC37FB50318A5F6CE8A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8571A74F55C101F89238CBB0C249158 /* Pods-gameDealsApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-gameDealsApp/Pods-gameDealsApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CDCA8A195A4EC08BD0AFE95DB203F0C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A58FAE05E73F36D6FC746CE3D8B0B1 /* Pods-gameDealsApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-gameDealsApp/Pods-gameDealsApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF54C4AE6A57F2741D5CD16C0F2C8512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 603562BF38AC79C8D9ED23109AF54B89 /* WelcomeAboard.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WelcomeAboard/WelcomeAboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = Headers/Public/WelcomeAboard/WelcomeAboard.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WelcomeAboard;
+				PRODUCT_NAME = WelcomeAboard;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83FAD55E6599F2B4202E6643C1FE80A6 /* Build configuration list for PBXNativeTarget "WelcomeAboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF54C4AE6A57F2741D5CD16C0F2C8512 /* Debug */,
+				4604B204F92B101853D67D14D14D9072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25B10FD37CBC7DB037556D70DA7C850 /* Build configuration list for PBXNativeTarget "Pods-gameDealsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F94A28B474FCC37FB50318A5F6CE8A7 /* Debug */,
+				CDCA8A195A4EC08BD0AFE95DB203F0C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - WelcomeAboard (1.0.0)
+
+DEPENDENCIES:
+  - WelcomeAboard
+
+SPEC REPOS:
+  trunk:
+    - WelcomeAboard
+
+SPEC CHECKSUMS:
+  WelcomeAboard: a0f97938f035c2420e0110f3f929654236ac30f0
+
+PODFILE CHECKSUM: 5fed8acc8f45d495af3369a78dacea779a550138
+
+COCOAPODS: 1.10.1

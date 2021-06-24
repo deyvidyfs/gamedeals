@@ -1,0 +1,6 @@
+module WelcomeAboard {
+  umbrella header "WelcomeAboard-umbrella.h"
+
+  export *
+  module * { export * }
+}
